@@ -1,0 +1,21 @@
+.signup-div{
+    display: flex;
+}
+
+.signup-div .input-div{
+    height: 450px;
+}
+
+.signup-div .signup{
+    width: 550px;
+    height: 620px;
+    margin: 20px auto 50px auto;
+    position: relative;
+    background: #f2d5c0;
+    border: 1px solid black;
+    border-radius: 3px; 
+}
+
+.signup .link{
+    cursor: pointer;
+}

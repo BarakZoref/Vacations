@@ -1,0 +1,14 @@
+.cards-container .cards-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards-container input{
+    background-color: #f2d5c0;
+    color: black;
+    border-radius: 5px;
+}
+
+.cards-container input:focus{
+    outline: none;
+}

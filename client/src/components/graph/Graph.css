@@ -1,0 +1,18 @@
+.graph{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.graph .paper{
+    background-color: #f2d5c0;
+}
+
+/*chart axises*/
+.css-12vmndj.Target-root{
+    stroke: black !important;
+}
+
+.graph>h1{
+    margin: 10px 0px;
+    color: #f2d5c0;
+}

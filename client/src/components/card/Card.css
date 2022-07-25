@@ -1,0 +1,81 @@
+.vacation-card{
+    color: white;
+    display: inline-block; 
+    width: 301px;    
+    border: solid #212529 3px;
+    background-color: #b28688cf;
+    margin: 20px;  
+    border-radius: 25px;
+    font-family: "Segoe Print";
+}
+
+.vacation-card .destination-image{
+    width: 295px;
+    height: 255px;
+}
+
+.vacation-card-header{
+    position: relative;
+}
+
+.vacation-card-header .num-of-followers{
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    background: #fff;
+    border: 3px solid #000;
+    color: white;
+    text-align: center;
+    font: 17px Arial, sans-serif;
+    background-color: #832d50;
+
+    top: 2px;
+    left: 7px;
+}
+
+.vacation-card .follow-card-button{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 245px;
+}
+
+.vacation-card-header .remove-card-button{
+    background: transparent;
+    position: absolute;
+    border: none;
+    top:4px;
+    left:260px;
+}
+
+.vacation-card-header .edit-card-button{
+    background: transparent;
+    position: absolute;
+    border: none;
+    top:4px;
+    left:235px;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+ .vacation-card > button{
+     margin-bottom: 10px;
+ }
+
+ .description-modal .modal-content{
+    background-color: #f2d5c0;
+ }
+ .description-modal .modal-header {
+    border-bottom: 0 none;
+}
+
+.description-modal .modal-footer {
+    border-top: 0 none;
+}

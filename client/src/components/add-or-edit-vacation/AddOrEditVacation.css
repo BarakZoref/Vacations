@@ -1,0 +1,16 @@
+.add-or-edit-vacation button {
+    margin-left: 5px;
+}
+
+.add-or-edit-vacation .modal-body, .modal-header{
+    background: #f2d5c0;
+}
+
+.add-or-edit-vacation .modal-header{
+    border-bottom: 1px solid grey;
+    display: block;
+}
+
+.modal-header h3{
+    text-align: center;
+}
